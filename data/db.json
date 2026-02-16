@@ -56401,6 +56401,7 @@
   "questionnaires": [],
   "wattbike_sessions": [
     {
+<<<<<<< HEAD
       "id": "v2_wb1",
       "title": "SESSION 1 – MULTI-SYSTEM TOP UP",
       "duration": "40 min",
@@ -58386,6 +58387,34 @@
           "resistance": "F1"
         }
       ]
+=======
+      "id": "wb1",
+      "title": "MULTI-SYSTEM TOP UP",
+      "duration": "40 min",
+      "sections": 8,
+      "type": "Conditioning"
+    },
+    {
+      "id": "wb2",
+      "title": "PEAK POWER 6s",
+      "duration": "15 min",
+      "sections": 4,
+      "type": "Power"
+    },
+    {
+      "id": "wb3",
+      "title": "VO2 MAX INTERVALS",
+      "duration": "30 min",
+      "sections": 6,
+      "type": "Conditioning"
+    },
+    {
+      "id": "wb4",
+      "title": "6min TT BASELINE",
+      "duration": "10 min",
+      "sections": 1,
+      "type": "Competition"
+>>>>>>> 0d411aa7eb97b754e582ec908a438d024036d908
     }
   ]
 }

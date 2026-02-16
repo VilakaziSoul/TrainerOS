@@ -1,0 +1,11 @@
+﻿4884:            const [isWorkoutPacketModalOpen, setIsWorkoutPacketModalOpen] = useState(false);
+4903:                console.log('REACT EFFECT: isWorkoutPacketModalOpen changed to:', isWorkoutPacketModalOpen);
+4904:                const modalEl = document.getElementById('workout-packet-modal');
+4909:            }, [isWorkoutPacketModalOpen]);
+4916:                        setIsWorkoutPacketModalOpen(true);
+5668:                                            setIsWorkoutPacketModalOpen(true);
+9958:                                        console.log('Current State:', isWorkoutPacketModalOpen);
+9960:                                        setIsWorkoutPacketModalOpen(true);
+11605:                                isWorkoutPacketModalOpen && (
+11606:                                    <div id="workout-packet-modal" className="fixed inset-0 z-[850] flex items-center justify-center bg-slate-900/90 backdrop-blur-sm p-4 animate-in fade-in duration-300 no-print">
+11630:                                                    <button onClick={() => setIsWorkoutPacketModalOpen(false)} className="w-full py-4 text-slate-400 text-[10px] font-black uppercase hover:text-slate-600 transition-colors">Close Portal</button>
